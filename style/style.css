@@ -1,0 +1,54 @@
+.container-fluid {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.lokasi {
+  width: 30px;
+}
+
+.lokasi1 {
+  width: 45px;
+}
+
+.hp {
+  width: 30px;
+}
+
+.email {
+  width: 50px;
+}
+
+.logo1 {
+  width: 65px;
+}
+
+/*slider*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  width: 95%;
+}
+
+.slider-wrapper .image-list {
+  display: grid;
+  gap: 18px;
+  overflow-x: auto;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.slider-wrapper .image-list .image-item {
+  width: 325px;
+  height: 400px;
+  object-fit: cover;
+}
