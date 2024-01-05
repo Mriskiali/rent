@@ -7,10 +7,10 @@ const route = (event) => {
 const routes = {
   404: "/pages/404.html",
   "/": "/pages/index.html",
-  "/layanankami": "pages/layanankami.html",
-  "/sewamobil": "/pages/sewamobil.html",
-  "/sewamotor": "/pages/sewamotor.html",
-  "/tentangkami": "/pages/aboutus.html",
+  "/layanankami": "/html/layanankami.html",
+  "/sewamobil": "/html/sewamobil.html",
+  "/sewamotor": "/html/sewamotor.html",
+  "/tentangkami": "/html/aboutus.html",
 };
 
 const handleLocation = async () => {
